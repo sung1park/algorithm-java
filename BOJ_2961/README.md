@@ -74,8 +74,8 @@ private static void combination(int cnt, int start, int num, int ingredients) {
 
 ```java
 for (int i = 1; i < Math.pow(2, N); i++) {
-        int diff = calcDiff(i);
-        min = Math.min(min, diff);
-    }
+    int diff = calcDiff(i);
+    min = Math.min(min, diff);
+}
 ```
 
